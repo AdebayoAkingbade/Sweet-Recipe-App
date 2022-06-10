@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 40px 24px;
+  flex-direction: column;
+}
+
+.class_form{
+  margin-top: 18px;
+}
+
+.input_holder{
+  padding: 7px 15px;
+  min-width: 200px;
+  max-width: 100vw;
+  font-size: 16px;
+}
+
+.input_submit{
+  cursor: pointer;
+  padding: 7px 15px;
+  margin-left: 8px;
+  border-radius:4px;
+  border: 3px solid rgb(151, 195, 251);
+  background-color:rgb(151, 195, 251);
+  font-size: 16px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input_submit:hover{
+  cursor: pointer;
+  padding: 7px 15px;
+  margin-left: 8px;
+  border-radius:4px;
+  border: 3px solid rgb(151, 195, 251);
+  background-color:white;;
+  font-size: 16px;
+  color: rgb(151, 195, 251)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.recipe_map{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 285px 285px;
+  align-items: baseline;
+}
+
+.drop_down{
+  padding: 8px 10px;
+  margin-left: 7px;
+  border-radius: 4px;
 }

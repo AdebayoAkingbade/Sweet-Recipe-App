@@ -1,0 +1,17 @@
+.recipe_name{
+ max-width: 250px;
+ margin-top: 0px;
+ margin-bottom: 14px;
+ text-align: center;
+}
+
+.recipe_img{
+ width: 250px;
+ height: 250px;
+ border-radius: 4px;
+ object-fit: cover;
+}
+
+.display_recipe{
+ cursor: pointer;
+}
